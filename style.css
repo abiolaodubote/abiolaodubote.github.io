@@ -1,0 +1,212 @@
+ @media screen and (max-width:480px){
+    *{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.banner{
+	width: 100%;
+	height:100%;
+	background-image: url(rat.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+.navbar{
+	width: 100%;
+}
+.logo{
+	width: 60px;
+	height: 35px;
+	cursor: pointer;
+}
+.navbar ul{
+	margin-top: 30px;
+}
+.navbar ul li{
+	list-style: none;
+	display: block;
+	padding: 2px;
+	font-size: 20px;
+	text-align: center;
+}
+.navbar ul li a{
+	text-decoration:none;
+	color: white;
+	text-transform: uppercase;
+}
+.row{
+	margin-top: 30px;
+	align-items: center;
+}
+.col{
+	margin-left: 10%;
+}
+h1{
+	color: white;
+	font-size: 30px;
+}
+.fig{
+	color: white;
+	font-size: 11px;
+	line-height: 15px;
+}
+ button{
+ 	width: 180px;
+ 	color: #000;
+ 	font-size: 12px;
+ 	padding: 12px 0;
+ 	background: white;
+ 	border: 0;
+ 	border-radius: 20px;
+ 	outline: none;
+ 	margin-top: 30px;
+ }
+ .col{
+ 	margin: 0;
+ 	padding: 0;
+ 	font-size: 8px;
+ 	background-color:;
+ }
+ .card{
+ 	margin-top: 60px;
+ 	margin-left: 16px;
+ 	display: inline-block;
+ 	width: 70px;
+ 	height: 130px;
+ 	border-radius: 10px;
+ 	box-sizing: border-box;
+ 	cursor: pointer;
+ 	background-image: url(pic.png);
+ 	background-position: center;
+ 	background-size: cover;
+ 	transition: transform 0.5s;
+ }
+ .card1{
+ 	background-image: url(pic.png);
+ }
+ .card2{
+ 	background-image: url(rat.jpeg);
+ }
+ .card3{
+ 	background-image: url(img.jpg);
+ }
+ .card4{
+ 	background-image: url(pic.png);
+ }
+ .card:hover{
+ 	transform: translateY(-10px);
+ }
+ }
+
+ @media screen and (min-width:800px){
+
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.banner{
+	width: 100%;
+	height:100%;
+	background-image: url(rat.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+.navbar{
+	width: 85%;
+	margin: auto;
+	padding: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo{
+	width: 120px;
+	cursor: pointer;
+}
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+}
+.navbar ul li a{
+	text-decoration:none;
+	color: white;
+	text-transform: uppercase;
+}
+.navbar ul li::after{
+	content: '';
+	height: 3px;
+	width: 0;
+	background: #de032b;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.row{
+	display: flex;
+	height: 88%;
+	align-items: center;
+}
+.col{
+	margin-left: 10%;
+	flex-basis: 50%;
+}
+h1{
+	color: white;
+	font-size: 100px;
+}
+p{
+	color: white;
+	font-size: 11px;
+	line-height: 15px;
+}
+ button{
+ 	width: 180px;
+ 	color: #000;
+ 	font-size: 12px;
+ 	padding: 12px 0;
+ 	background: white;
+ 	border: 0;
+ 	border-radius: 20px;
+ 	outline: none;
+ 	margin-top: 30px;
+ }
+ .card{
+ 	width: 200px;
+ 	height: 230px;
+ 	display: inline-block;
+ 	border-radius: 10px;
+ 	padding: 15px 25px;
+ 	box-sizing: border-box;
+ 	cursor: pointer;
+ 	margin: 10px 15px;
+ 	background-image: url(pic.png);
+ 	background-position: center;
+ 	background-size: cover;
+ 	transition: transform 0.5s;
+ }
+ .card1{
+ 	background-image: url(pic.png);
+ }
+ .card2{
+ 	background-image: url(rat.jpeg);
+ }
+ .card3{
+ 	background-image: url(img.jpg);
+ }
+ .card4{
+ 	background-image: url(pic.png);
+ }
+ .card:hover{
+ 	transform: translateY(-10px);
+ }
+ }
+ 
+ 
